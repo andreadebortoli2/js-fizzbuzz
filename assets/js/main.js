@@ -71,3 +71,13 @@ for (let i = 1 ; i <= 100 ; i++) {
         console.log(buzz);
     }
 }
+
+// -BONUS 1
+//     -create an <ul> in index.html
+//     -add <li> with js
+
+const list = document.querySelector('ul')
+
+list.innerHTML = '<li></li>'
+
+//     -set the i or strings inside the <li>

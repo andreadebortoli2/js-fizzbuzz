@@ -26,9 +26,18 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
     -edit the code with the variables
     -show on console
 
+-BONUS 1
+    -create an <ul> in index.html
+    -add <li> with js
+    -set the i or strings inside the <li>
+    
+-BONUS 2
+
 #Tools
 -const/let
 -FOR loop
 -% modulus
 -.innerHTML / insertAdjacentHTML
 -&& / ||
+
+-append()
