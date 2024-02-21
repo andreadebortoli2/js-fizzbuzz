@@ -12,14 +12,18 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
 -write the loop for numbers from 1 to 100
     -show on console
 -find numbers divisible by 3
-    -add 'fizz' string to the numbers
+    -add 'f' string to the numbers
     -show on console
 -find numbers divisble by 5
-    -add 'buzz' string to the numbers
+    -add 'b' string to the numbers
     -show on console
--check if number divisible by 3 and 5 show both strings
-    -show on console
--write everything inside conditions
+-check on console if:
+    -numbers divisble by 3 have 'f'
+    -numbers divisble by 5 have 'b'
+    -numbers divisble by 3 and 5 have 'f' and 'b'
+-add 'Fizz' and 'Buzz' instead of 'f' , 'b' and numbers
+    -set variables for 'fizz' and 'buzz'
+    -edit the code with the variables
     -show on console
 
 #Tools
