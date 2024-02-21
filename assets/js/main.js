@@ -61,16 +61,18 @@ const buzz = 'Buzz'
 //     -edit the code with the variables
 //     -show on console
 
+/*
 for (let i = 1 ; i <= 100 ; i++) {
     console.log(i);
     if (i % 3 == 0 && i % 5 == 0) {
-    console.log(fizz + buzz)
+    console.log(fizz + buzz);
     } else if (i % 3 == 0) {
-        console.log(fizz)
+        console.log(fizz);
     } else if (i % 5 == 0) {
         console.log(buzz);
     }
 }
+*/
 
 // -BONUS 1
 //     -create an <ul> in index.html
@@ -79,13 +81,35 @@ for (let i = 1 ; i <= 100 ; i++) {
 const list = document.querySelector('ul')
 
 //-with .innerHTML
-list.innerHTML = '<li>x</li>'
+// list.innerHTML = '<li>x</li>'
 
 //-with .insertAdjacentHTML
-list.insertAdjacentHTML('beforeend' , '<li>y</li>')
+// list.insertAdjacentHTML('beforeend' , '<li>y</li>')
 
 //-with .append
-const listItem = document.createElement('li')
-list.append('z' , listItem )
+
+// const listItem = document.createElement('li')
+// list.append(listItem)
+// listItem.innerHTML = 'z'
 
 //     -set the i or strings inside the <li>
+
+for (let i = 1 ; i <= 100 ; i++) {
+    // console.log(i);
+    const listItem = document.createElement('li')
+    list.append(listItem)
+    listItem.innerHTML = i
+    if (i % 3 == 0 && i % 5 == 0) {
+        // console.log(fizz + buzz);
+        listItem.innerHTML = fizz + buzz
+        
+    } else if (i % 3 == 0) {
+        // console.log(fizz);
+        listItem.innerHTML = fizz
+        
+    } else if (i % 5 == 0) {
+        // console.log(buzz);
+        listItem.innerHTML = buzz
+    } 
+}
+
