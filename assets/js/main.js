@@ -55,18 +55,19 @@
 */
 // -add 'Fizz' and 'Buzz' instead of 'f' , 'b' and numbers
 //     -set variables for 'fizz' and 'buzz'
+const fizz = 'Fizz'
+const buzz = 'Buzz'
+
 //     -edit the code with the variables
 //     -show on console
-
-
 
 for (let i = 1 ; i <= 100 ; i++) {
     console.log(i);
     if (i % 3 == 0 && i % 5 == 0) {
-    console.log(i + 'f' + 'b')
+    console.log(fizz + buzz)
     } else if (i % 3 == 0) {
-        console.log(i + 'f')
+        console.log(fizz)
     } else if (i % 5 == 0) {
-        console.log(i + 'b');
+        console.log(buzz);
     }
 }
