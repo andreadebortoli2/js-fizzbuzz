@@ -20,7 +20,7 @@
 //     -show on console
 
 /*if (i % 3 == 0) {
-    console.log(i + 'f')
+    console.log(i + 'f');
 }*/
 
 // -find numbers divisble by 5 
@@ -29,14 +29,14 @@
 
 //     -add 'b' string to the numbers
 
-/*if (i % 3 == 0) {
+/*if (i % 5 == 0) {
     
 }*/
 
 //     -show on console
 
-/*if (i % 3 == 0) {
-    console.log(i + 'b')
+/*if (i % 5 == 0) {
+    console.log(i + 'b');
 }*/
 
 // -check on console if:
@@ -46,17 +46,17 @@
 
 /*
     if (i % 3 == 0 && i % 5 == 0) {
-    console.log(i + 'f' + 'b')
+    console.log(i + 'f' + 'b');
     } else if (i % 3 == 0) {
-        console.log(i + 'f')
+        console.log(i + 'f');
     } else if (i % 5 == 0) {
         console.log(i + 'b');
     }
 */
 // -add 'Fizz' and 'Buzz' instead of 'f' , 'b' and numbers
 //     -set variables for 'fizz' and 'buzz'
-const fizz = 'Fizz'
-const buzz = 'Buzz'
+const fizz = 'Fizz';
+const buzz = 'Buzz';
 
 //     -edit the code with the variables
 //     -show on console
@@ -78,19 +78,18 @@ for (let i = 1 ; i <= 100 ; i++) {
 //     -create an <ul> in index.html
 //     -add <li> with js (different methods)
 
-const list = document.querySelector('ul')
+const list = document.querySelector('ul');
 
-//-with .innerHTML
-// list.innerHTML = '<li>x</li>'
+//          -with .innerHTML
+// list.innerHTML = '<li>x</li>';
 
-//-with .insertAdjacentHTML
-// list.insertAdjacentHTML('beforeend' , '<li>y</li>')
+//          -with .insertAdjacentHTML
+// list.insertAdjacentHTML('beforeend' , '<li>y</li>');
 
-//-with .append
-
-// const listItem = document.createElement('li')
-// list.append(listItem)
-// listItem.innerHTML = 'z'
+//          -with .append
+// const listItem = document.createElement('li');
+// list.append(listItem);
+// listItem.innerHTML = 'z';
 
 //     -set the i or strings inside the <li>
 
