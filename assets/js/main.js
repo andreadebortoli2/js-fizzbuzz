@@ -23,13 +23,36 @@
     console.log(i + 'f')
 }*/
 
-// -find numbers divisble by 5
+// -find numbers divisble by 5 
+
+// i % 5 == 0
+
 //     -add 'b' string to the numbers
+
+/*if (i % 3 == 0) {
+    
+}*/
+
 //     -show on console
+
+/*if (i % 3 == 0) {
+    console.log(i + 'b')
+}*/
+
 // -check on console if:
 //     -numbers divisble by 3 have 'f'
 //     -numbers divisble by 5 have 'b'
 //     -numbers divisble by 3 and 5 have 'f' and 'b'
+
+/*
+    if (i % 3 == 0 && i % 5 == 0) {
+    console.log(i + 'f' + 'b')
+    } else if (i % 3 == 0) {
+        console.log(i + 'f')
+    } else if (i % 5 == 0) {
+        console.log(i + 'b');
+    }
+*/
 // -add 'Fizz' and 'Buzz' instead of 'f' , 'b' and numbers
 //     -set variables for 'fizz' and 'buzz'
 //     -edit the code with the variables
@@ -39,7 +62,11 @@
 
 for (let i = 1 ; i <= 100 ; i++) {
     console.log(i);
-    if (i % 3 == 0) {
+    if (i % 3 == 0 && i % 5 == 0) {
+    console.log(i + 'f' + 'b')
+    } else if (i % 3 == 0) {
         console.log(i + 'f')
+    } else if (i % 5 == 0) {
+        console.log(i + 'b');
     }
 }

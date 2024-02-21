@@ -31,3 +31,4 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
 -FOR loop
 -% modulus
 -.innerHTML / insertAdjacentHTML
+-&& / ||
