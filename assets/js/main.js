@@ -2,6 +2,10 @@
 
 // -write the loop for numbers from 1 to 100
 //     -show on console
+for (let i = 1 ; i <= 100 ; i++) {
+    console.log(i);
+}
+
 // -find numbers divisible by 3
 //     -add 'fizz' string to the numbers
 //     -show on console
