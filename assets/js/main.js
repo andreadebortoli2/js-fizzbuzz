@@ -74,10 +74,18 @@ for (let i = 1 ; i <= 100 ; i++) {
 
 // -BONUS 1
 //     -create an <ul> in index.html
-//     -add <li> with js
+//     -add <li> with js (different methods)
 
 const list = document.querySelector('ul')
 
-list.innerHTML = '<li></li>'
+//-with .innerHTML
+list.innerHTML = '<li>x</li>'
+
+//-with .insertAdjacentHTML
+list.insertAdjacentHTML('beforeend' , '<li>y</li>')
+
+//-with .append
+const listItem = document.createElement('li')
+list.append('z' , listItem )
 
 //     -set the i or strings inside the <li>

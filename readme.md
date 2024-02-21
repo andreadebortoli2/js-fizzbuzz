@@ -28,16 +28,14 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
 
 -BONUS 1
     -create an <ul> in index.html
-    -add <li> with js
+    -add <li> with js (different methods)
     -set the i or strings inside the <li>
-    
+
 -BONUS 2
 
 #Tools
 -const/let
 -FOR loop
 -% modulus
--.innerHTML / insertAdjacentHTML
+-.innerHTML / insertAdjacentHTML / append()
 -&& / ||
-
--append()
