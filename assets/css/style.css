@@ -15,9 +15,11 @@
 }
 
 /* Common */
+body {
+    background-color: var(--fizzbuzzdom_bg);
+}
 
 main {
-    background-color: var(--fizzbuzzdom_bg);
     font-family: "Roboto", sans-serif;
 }
 
@@ -47,5 +49,20 @@ ul {
         width: 60px;
         line-height: 60px;
         background-color: var(--fizzbuzzdom_li_bg);
+    }
+
+    .fizz_buzz {
+        background-color: var(--fizzbuzzdom_fizzbuzz_bg);
+        font-size: small;
+    }
+
+    .fizz {
+        background-color: var(--fizzbuzzdom_fizz_bg);
+        font-size: small;
+    }
+
+    .buzz {
+        background-color: var(--fizzbuzzdom_buzz_bg);
+        font-size: small;
     }
 }

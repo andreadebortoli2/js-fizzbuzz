@@ -100,18 +100,15 @@ for (let i = 1 ; i <= 100 ; i++) {
     if (i % 3 == 0 && i % 5 == 0) {
         // console.log(fizz + buzz);
         listItem.append(fizz + buzz)
-        listItem.style.backgroundColor = '#f0466fFF';
-        listItem.style.fontSize = 'small'
+        listItem.className += 'fizz_buzz'
     } else if (i % 3 == 0) {
         // console.log(fizz);
         listItem.append(fizz)
-        listItem.style.backgroundColor = '#0cd6a1FF';
-        listItem.style.fontSize = 'small'
+        listItem.className += 'fizz'
     } else if (i % 5 == 0) {
         // console.log(buzz);
         listItem.append(buzz)
-        listItem.style.backgroundColor = '#ffd166FF';
-        listItem.style.fontSize = 'small'
+        listItem.className += 'buzz'
     } else {
         listItem.append(i)
     }
